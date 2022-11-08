@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="vanguard.state" id="state_200">
+            <field name="name">200</field>
+            <field name="code_response">200</field>
+            <field name="type">ok</field>
+        </record>
+
+        <record model="vanguard.state" id="state_503">
+            <field name="name">503</field>
+            <field name="code_response">503</field>
+            <field name="type">error</field>
+        </record>
+
+        <record model="vanguard.state" id="state_404">
+            <field name="name">404</field>
+            <field name="code_response">404</field>
+            <field name="type">error</field>
+        </record>
+    </data>
+</odoo>

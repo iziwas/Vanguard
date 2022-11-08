@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Menu général -->
+        <menuitem name="Vanguard" id="menu_vanguard"
+                  web_icon="account,static/description/icon.png" sequence="60" />
+
+        <!-- Top menus -->
+        <menuitem id="vanguard_url_menu_vanguard"
+                  name="URL"
+                  action="vanguard_url_action"
+                  parent="menu_vanguard"
+                  sequence="2"/>
+
+        <menuitem id="vanguard_res_partner_menu_vanguard"
+                  name="Partners"
+                  action="vanguard_res_partner_action"
+                  parent="menu_vanguard"
+                  sequence="3"/>
+
+        <!-- Configuration -->
+        <menuitem id="vanguard_configuration_menu_vanguard"
+                  name="Configuration"
+                  parent="menu_vanguard"
+                  sequence="99"/>
+
+        <menuitem id="vanguard_time_menu_vanguard"
+                  name="Time between two tests"
+                  action="vanguard.vanguard_time_action"
+                  parent="vanguard.vanguard_configuration_menu_vanguard"
+                  sequence="1" />
+
+        <menuitem id="vanguard_test_menu_vanguard"
+                  name="Tests done"
+                  action="vanguard.vanguard_test_action"
+                  parent="vanguard.vanguard_configuration_menu_vanguard"
+                  sequence="2" />
+    </data>
+</odoo>

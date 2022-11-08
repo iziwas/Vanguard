@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.mail_server" id="vanguard_template_ir_mail_server">
+            <field name="name">Vanguard Mail Server</field>
+            <field name="sequence">10</field>
+            <field name="smtp_host">smtp.template.com</field>
+            <field name="smtp_port">465</field>
+            <field name="smtp_authentication">login</field>
+            <field name="smtp_encryption">ssl</field>
+            <field name="smtp_user">login@example.com</field>
+        </record>
+    </data>
+</odoo>

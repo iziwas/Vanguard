@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+vanguard.access_vanguard_state,access_vanguard_state,vanguard.model_vanguard_state,base.group_user,1,1,1,1
+vanguard.access_vanguard_test,access_vanguard_test,vanguard.model_vanguard_test,base.group_user,1,1,1,1
+vanguard.access_vanguard_time,access_vanguard_time,vanguard.model_vanguard_time,base.group_user,1,1,1,1
+vanguard.access_vanguard_url,access_vanguard_url,vanguard.model_vanguard_url,base.group_user,1,1,1,1

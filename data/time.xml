@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="vanguard.time" id="time_1">
+            <field name="minutes">1</field>
+        </record>
+
+        <record model="vanguard.time" id="time_5">
+            <field name="minutes">5</field>
+        </record>
+
+        <record model="vanguard.time" id="time_10">
+            <field name="minutes">10</field>
+        </record>
+
+        <record model="vanguard.time" id="time_15">
+            <field name="minutes">15</field>
+        </record>
+
+        <record model="vanguard.time" id="time_30">
+            <field name="minutes">30</field>
+        </record>
+
+        <record model="vanguard.time" id="time_60">
+            <field name="minutes">60</field>
+        </record>
+    </data>
+</odoo>

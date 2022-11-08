@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="vanguard_time_tree">
+            <field name="name">vanguard_time_tree</field>
+            <field name="model">vanguard.time</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="minutes" />
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="vanguard_time_form">
+            <field name="name">vanguard_time_form</field>
+            <field name="model">vanguard.time</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="minutes" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="vanguard_time_action">
+            <field name="name">Time between two tests</field>
+            <field name="res_model">vanguard.time</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>
