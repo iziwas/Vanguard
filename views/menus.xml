@@ -30,10 +30,16 @@
                   parent="vanguard.vanguard_configuration_menu_vanguard"
                   sequence="1" />
 
+        <menuitem id="vanguard_state_menu_vanguard"
+                  name="State"
+                  action="vanguard.vanguard_state_action"
+                  parent="vanguard.vanguard_configuration_menu_vanguard"
+                  sequence="2" />
+
         <menuitem id="vanguard_test_menu_vanguard"
                   name="Tests done"
                   action="vanguard.vanguard_test_action"
                   parent="vanguard.vanguard_configuration_menu_vanguard"
-                  sequence="2" />
+                  sequence="3" />
     </data>
 </odoo>

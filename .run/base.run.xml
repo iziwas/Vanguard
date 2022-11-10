@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="-i base" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="base" type="PythonConfigurationType" factoryName="Python">
     <module name="vanguard" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />

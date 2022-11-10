@@ -7,7 +7,8 @@
             <field name="arch" type="xml">
                 <tree>
                     <field name="name" />
-                    <field name="code_response" />
+                    <field name="code_response_start" />
+                    <field name="code_response_end" />
                     <field name="type" />
                 </tree>
             </field>
@@ -19,10 +20,17 @@
             <field name="arch" type="xml">
                 <form>
                     <field name="name" />
-                    <field name="code_response" />
+                    <field name="code_response_start" />
+                    <field name="code_response_end" />
                     <field name="type" />
                 </form>
             </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="vanguard_state_action">
+            <field name="name">State</field>
+            <field name="res_model">vanguard.state</field>
+            <field name="view_mode">tree,form</field>
         </record>
     </data>
 </odoo>

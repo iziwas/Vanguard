@@ -63,13 +63,10 @@ class Url(models.Model):
                 status_code = 495
 
             # Research the state object with status_code
-            state = self.env['vanguard.state'].search([('code_response', '=', status_code)])
-            if not state:
-                state = self.env['vanguard.state'].create({
-                    'name': status_code,
-                    'code_response': status_code,
-                    'type': 'error'
-                })
+            state = self.env['vanguard.state'].search([
+                ('code_response_start', '<=', status_code),
+                ('code_response_end', '>=', status_code)
+            ])
 
             # Create Test object
             self.env['vanguard.test'].create({

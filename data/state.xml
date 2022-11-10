@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record model="vanguard.state" id="state_200">
-            <field name="name">200</field>
-            <field name="code_response">200</field>
-            <field name="type">ok</field>
-        </record>
-
-        <record model="vanguard.state" id="state_503">
-            <field name="name">503</field>
-            <field name="code_response">503</field>
+        <record model="vanguard.state" id="state_100_199">
+            <field name="name">100</field>
+            <field name="code_response_start">100</field>
+            <field name="code_response_end">199</field>
             <field name="type">error</field>
         </record>
 
-        <record model="vanguard.state" id="state_404">
-            <field name="name">404</field>
-            <field name="code_response">404</field>
+        <record model="vanguard.state" id="state_200_299">
+            <field name="name">200</field>
+            <field name="code_response_start">200</field>
+            <field name="code_response_end">299</field>
+            <field name="type">ok</field>
+        </record>
+
+        <record model="vanguard.state" id="state_300_399">
+            <field name="name">300</field>
+            <field name="code_response_start">300</field>
+            <field name="code_response_end">399</field>
+            <field name="type">ok</field>
+        </record>
+
+        <record model="vanguard.state" id="state_400_499">
+            <field name="name">400</field>
+            <field name="code_response_start">400</field>
+            <field name="code_response_end">499</field>
+            <field name="type">error</field>
+        </record>
+
+         <record model="vanguard.state" id="state_500_599">
+            <field name="name">500</field>
+            <field name="code_response_start">500</field>
+            <field name="code_response_end">599</field>
             <field name="type">error</field>
         </record>
     </data>
